@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/basicColorApp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botaoNovaFraseId"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/textoFraseDia"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/textoNovaFraseId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/botaoNovaFraseId"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_nova_frase_size"
+        tools:text="@string/text_nova_frrase" />
+</RelativeLayout>
