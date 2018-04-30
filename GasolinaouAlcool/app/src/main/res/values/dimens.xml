@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_size">20sp</dimen>
+    <dimen name="espaco_interno_edits">5dp</dimen>
+</resources>
