@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">idade dos cachorros</string>
+    <string name="decobrir_idade">Descobrir idade</string>
+    <string name="texto_idade_cachorro">Digite a idade de seu cachorro para descobrir a idade dele em anos humanos</string>
+    <string name="hint_idade_cachorro">Digite a idade aqui</string>
+    <string name="hint_imagem_cachorro">Imagem do cachorro</string>
+</resources>

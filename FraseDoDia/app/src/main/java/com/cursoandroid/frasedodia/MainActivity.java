@@ -2,8 +2,11 @@ package com.cursoandroid.frasedodia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +22,13 @@ public class MainActivity extends AppCompatActivity {
         botaoNovaFrase = findViewById(R.id.botaoNovaFraseId);
         textoNovaFrase = findViewById(R.id.textoNovaFraseId);
 
-        textoNovaFrase.setText(frases[0]);
+        //textoNovaFrase.setText(frases[0]);
+        botaoNovaFrase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Random random = new Random();
+                textoNovaFrase.setText(frases[random.nextInt(frases.length)]);
+            }
+        });
     }
 }
