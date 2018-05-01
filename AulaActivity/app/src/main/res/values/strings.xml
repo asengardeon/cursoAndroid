@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Aula Activity</string>
+    <string name="nova_activity">Abrir nova Activity</string>
 </resources>
