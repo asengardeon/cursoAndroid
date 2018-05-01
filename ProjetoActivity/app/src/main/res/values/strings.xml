@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Projeto Activity</string>
+    <string name="titulo_activity_1">Primeira activity</string>
+    <string name="botao_activity1">Ir para activity 2</string>
 </resources>
